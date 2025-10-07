@@ -10,7 +10,7 @@ This is my journal of the design and building process of **Smart AI Object Ident
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/290).
 
 
-## 10/7/2025 - Firstly, started making CAD  
+## 10/7/2025 4 PM - Firstly, started making CAD  
 
 ![camera-CAD.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTUxLCJwdXIiOiJibG9iX2lkIn19--fd1585401d3efca3188300f87f8b662c1b629c1b/camera-CAD.png)
 
@@ -25,4 +25,31 @@ I know I need a Raspberry Pi, Picamera, and some software. My biggest problem is
 Right now it is in a loose cardboard case and that must be fixed. I am going to be using ***FreeCAD*** for making CAD designs.
 
 I have just started making a hole for the front side of the camera, but it seems that its structure is *far more complex* than what I first thought. I am going to upskill in FreeCAD and finish the CAD for the camera.  
+
+## 10/7/2025 8 PM - Finished Camera's Case CAD  
+
+![finished-camera.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTY3LCJwdXIiOiJibG9iX2lkIn19--43ec9ea78ca83f5157aa15693ac722a8eb4cfced/finished-camera.png)
+# Progress
+
+## Learning
+
+I needed to learn lots of new parts of *FreeCAD* like:
+	- Chamfers
+	- fillets
+	- thick solids
+Many function created hassles by giving errors. I needed to go back and read how to use them and correct these errors.
+
+## Parts of Camera
+
+### Front
+
+Has chamfered hole for camera lens and holes for *screws* and *bosses* (but these are not finalized). Front facing part of camera, measured to accuracy.
+
+### Main body
+
+Has a coin-like slot for the camera cable. Very box-like because its a thick solid.
+
+### Future
+
+***Securing Mechanism*** must be fixed. Its unclear if the screws, bolts, and bosses will work with the model.  
 
