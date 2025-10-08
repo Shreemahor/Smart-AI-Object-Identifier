@@ -53,3 +53,22 @@ Has a coin-like slot for the camera cable. Very box-like because its a thick sol
 
 ***Securing Mechanism*** must be fixed. Its unclear if the screws, bolts, and bosses will work with the model.  
 
+## 10/8/2025 - Finalized Design & Fastening  
+
+![final_camera.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTg1LCJwdXIiOiJibG9iX2lkIn19--f24f2e6c86287f132162d38bdb687d95ccf77b63/final_camera.png)
+
+# Finalized Design
+
+## Issue
+
+There were screw bosses that I put on and didn't know much about. Now I know that it is supposed to help screws but I put it on wrong. I also put the radius of the holes wrong because I didn't know what I was going to do. I spent a long time trying different things to fix it but nothing worked
+
+## Research
+
+I measured my camera more and compared options. I measured things like the radius of the lense, border, and center more carefully. I evaluated which fastening method to use I considered connectors, coppers, and self-tapping screws, but I decided on ***M2*10 Philips Screw*** and ***M2 Nuts*** on the ends to secure.
+![nuts_and_bolts.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTg2LCJwdXIiOiJibG9iX2lkIn19--51a1ffe86b7743c377912b5ffd4f4c37e0520e61/nuts_and_bolts.png)
+
+## Fix
+
+I needed to change the size of holes (except the ribbon cable channel). I removed the bosses and realized that this is enough.  
+
