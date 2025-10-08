@@ -53,7 +53,7 @@ Has a coin-like slot for the camera cable. Very box-like because its a thick sol
 
 ***Securing Mechanism*** must be fixed. Its unclear if the screws, bolts, and bosses will work with the model.  
 
-## 10/8/2025 - Finalized Design & Fastening  
+## 10/8/2025 12 AM - Finalized Design & Fastening  
 
 ![final_camera.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTg1LCJwdXIiOiJibG9iX2lkIn19--f24f2e6c86287f132162d38bdb687d95ccf77b63/final_camera.png)
 
@@ -71,4 +71,22 @@ I measured my camera more and compared options. I measured things like the radiu
 ## Fix
 
 I needed to change the size of holes (except the ribbon cable channel). I removed the bosses and realized that this is enough.  
+
+## 10/8/2025 4 AM - Finished final descriptions, .md .csv  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--acde3c5248b67140f2fc53bbba2d498b78434bfa/image.png)
+# .md
+
+I made many md files that presented an overview of the project and mistakes.
+README.md starts with some installation and a summary of the project.
+Assembly.md is all about assembly.
+Failed.md is a summary of the errors in the old model.
+
+# .csv
+
+This took some research to understand what part numbers are and what a .csv file really is. I spent some time looking at my materials deeper.
+
+# Final touches on model
+
+I reflected on the old model from journal entry 1 and 2. I ensure the new model had no conflicting sides and was fully constrained. I also finally inspected it from all sides and took pictures.  
 
