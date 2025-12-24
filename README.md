@@ -1,32 +1,35 @@
-# Smart AI Object Identifier
+# Smart AI Object Identifier 🤖
+***A camera with a 3D printed case controlled by a raspberry pi, identifying what's in front of it and then displaying it on an LCD***
 
-## Overview
+<img width="2000" height="1500" alt="image" src="https://github.com/user-attachments/assets/9a818459-087f-43e4-8150-e9734a9b3013" />
 
-This project aims to identify the object in the screenshot taken by a camera using AI and computer vision
+**Video of it in action:**
 
-## Connecting
+![identifier](https://github.com/user-attachments/assets/c4363cb5-11ea-4132-8c17-6c0c5335510e)
+## What is it?
 
-There are two main parts:
-  - Raspberry Pi 5
-  - Arducam
+There is a raspberry pi 5 which runs object recognition, and this is connected to an arducam whose case I have 3D printed.
+The raspberry pi 5 is also connected to an LCD display. When something is placed in front, the camera detects it, labels it, then that label is displayed 
+on the LCD.
 
-First, unlock the ribbon cable connector on the arducam and pi by lifting the metal hinge on each one. Now choose one end and put it blue face facing the lense of the arducam. Next, put the other end of the cable into the raspberry pi's connector, shiny face facing the pi's
-usb ports. Now make sure both ends have fit in snugly and close the hinge by gently tapping it down.
+## Why?
 
-## 3D Case
+The process of identifying something using a camera and then acting has many applications. One of these is a manufacturing line where this could be used to identify defects then stop to grab the 
+defected peice. Other than that, designing the camera model was a great way for me to learn CAD. Most computer vision systems display what was identified on the computer, so this LCD instantaneously 
+displaying it makes it feel more magical. 
 
-The Arducam is quite fragile so it needs a case to stand up straight and be suitable for taking images safer and at a better angle.
-More details at Assembly.md.
+## Structure
 
-## Using
+*Case model* has the files for the camera case, and the *Failed model* contains the old 3d model for the case, but did not work because its dimensions were not correct.
+Assembly and Assembly-2 both have details on how I made it, the commands I ran, more problems I faced, and details of how I accomplised it.
 
-Once you open the raspberry pi 5 there are some commands to run to ensure the camera is funcioning. Firstly, run **sudo raspi-config** and navigate to settings to enable the camera. Now in the *libcamera library*, a libary used for interacting with cameras there are some basic
-commands to run:
-  1. libcamera-hello - Displayes a simple preview
-  2. libcamera-hello -t 8000 - Display a simple preview for 8000ms or 8s
-  3. libcamera-still -o example_image.jpg - Captures an image
-  4. libcamera-vid -o example_video.mp4 -t 9000 - Captures a video with a duratio of 9s
+<img width="788" height="782" alt="image" src="https://github.com/user-attachments/assets/0dc004d1-1968-4157-ba96-7ccd679417cb" />
+<img width="1197" height="735" alt="image" src="https://github.com/user-attachments/assets/c8e24c35-d99d-4a11-a355-7f4dd64bb94a" />
+<img width="760" height="785" alt="image" src="https://github.com/user-attachments/assets/b5702b40-9efb-4a16-90f7-3f10a57bf691" />
+<img width="551" height="691" alt="image" src="https://github.com/user-attachments/assets/8d5e353c-7d75-46c8-80ab-54fe8dd17a23" />
 
-## Computer Vison
 
-Need to open Thonny the lightweight python editor. Need to use machine learning libraries like OpenCV and image processing libraries like MatPlotLib but I dont know the exact code because I have not set up hardware yet.
+<img width="1036" height="240" alt="image" src="https://github.com/user-attachments/assets/ec6daa46-1642-4f36-bf63-9e3f7465944e" />
+
+
+Smart AI Object Identifier is a simple yet useful project that uses computer vision and a camera with a 3d printed case to identify objects then displays them on the lcd.
