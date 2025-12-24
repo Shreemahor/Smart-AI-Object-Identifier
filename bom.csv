@@ -1,4 +1,7 @@
-Raspberry Pi 5,SC1113,1,mini-computer
-Arducam IMX519,B0371,1,camera
-M2 Nuts,‎B0CSWRN19Q,4,nuts
-M2*10 Screws,B094NT6K3N,4,screws
+Component,Price,Link,Quantity,Description
+Raspberry Pi 5,169.95,https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y,1,mini-computer
+Arducam IMX519,24.99,https://www.amazon.com/Arducam-IMX519-Autofocus-Raspberry-Compatible/dp/B0B3XBQM9Z,1,camera
+LCD Display,12.99,https://www.amazon.com/Hosyond-Display-Module-Arduino-Raspberry/dp/B0BWTFN9WF,1,display
+M2 screws,9.99,https://www.amazon.com/Fgruh-1200PCS-Assortment-Washers-Assorted/dp/B0FGV5K8BT,1,for case connection - but I actually used tape
+Wires,3.99,https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQGS6,1,lcd connection
+Screwdriver,7.39,https://www.amazon.com/Amazon-Brand-6-Multi-Bit-Screwdriver/dp/B09G7J1X2N,1,for adjusting lcd backlight
